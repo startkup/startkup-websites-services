@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background ="images/A2B5766D-2EC5-4123-BE81-8B8AD83D9E6C1.jpg" style="background-size:cover"></body>
+<body>
+    <div>
+              
+        
+     <ul class="mean">
+            <li><a href="#"><img src="favicon/menu_bars.png"style="position: absolute;left:53px;top:43px;width:50px ;height:50px ;"></a>
+                <ul >
+                    <li><a href="#"><p style="font-weight:bolder;font-size: larger;"><img src="favicon/games_card_hearts (1).png"> 我的收藏</p></a>
+                    </li>
+                    <li><a href="#"><p style="font-weight:bolder;font-size: larger;"><a href="file:///D:/vs%20code/1/TKU2.html#"><img src="favicon/calendar_year (1).png"> 課程表</p></a></a>
+                    </li>
+                    <li><a href="#"><p style="font-weight:bolder;font-size: larger;"> 課程心得填寫</p></a>
+                    </li>
+                    <li><a href="#"><p style="font-weight:bolder;font-size: larger;"> 網站導覽</p></a>
+                    </li>
+                </ul>
+            </li>
+    </ul>    
+  </div>
+  <style>
+    ul { /* 取消ul預設的內縮及樣式 */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    ul.mean {
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+    }
+    ul.mean li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #ccc 1px solid;
+    }
+    ul.mean > li:last-child {
+        border-right: none;
+    }
+
+    ul.mean > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }
+
+    ul.mean a {
+        background-color: #fff;
+        color: #333;
+        display: block;
+        padding: 0 30px;
+        text-decoration: none;
+        line-height: 40px;
+
+    }
+    ul.mean a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #1b1a1a;
+        color: #fff;
+    }
+    ul.mean li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #1b1a1a;
+        color: #fff;
+    }
+    ul.mean ul {
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.mean ul li {
+        border-bottom: #ccc 1px solid;
+    }
+
+    ul.mean ul li:last-child {
+        border-bottom: none;
+    }
+
+    ul.mean ul { /*隱藏次選單*/
+        display: none;
+    }
+
+    ul.mean li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+    }
+  </style>
+  <a href="file:///D:/vs%20code/1/TKU2.html"><img src="favicon/home.png"style="position: absolute;left: 1450px;top: 43px;width:50px ;height:50px ;"></a>
+  
+  <div style="position:absolute;width:108px;height:10px;left:470px;top:130px;size:24px;font-family: 'Lustria';font: weight 108px;font-size: 50px;line-height: 10px;letter-spacing: 0.20em; color: #ffffff;white-space:nowrap;">
+        淡江大學選課推薦系統
+
+        </div>
+  
+
+  <div style="position:absolute;width:108px;height:10px;left:586px;top:170px;size:24px;font-family: 'Lustria';font: weight 108px;font-size: 30px;line-height: 10px;letter-spacing: 0.09em; color: #5ef4f2;white-space:nowrap;">
+              Copyright from TKUAIIC 
+              </div>
+        <div style="position:absolute;width:520px;height:19px;left:370px;top:200px;size:24px;font-family: 'Lustria';font: weight 400px;font-size: 25px;line-height: 19px;letter-spacing: 0.09em; color: #5ef4f2;white-space:nowrap;">
+              Tamkang University Course Selection Recommendation System
+              </div>
+    <div class="box">
+        <div class="container-1">
+            <span class="icon"><i class="fa fa-search"></i></span>
+            <input type="search" id="search" placeholder="請輸入您想查詢的課程" style="position:relative;left: 30%; 
+            top: 280px;
+            transform: translate(0, -50%);font-size:50px"/>
+        </div>
+      </div>
+</body>
+</html>
